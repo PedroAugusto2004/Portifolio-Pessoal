@@ -46,6 +46,7 @@
   --z-fixed: 100;
 }
 
+/* E-mail button */
 /* Core CSS */
 *,
 ::before,
@@ -246,17 +247,27 @@ img {
 
 /*==================== Buttons ==================*/
 .button {
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: 0.75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: 0.5rem;
-  transition: 0.5s;
+  width: fit-content;
+  min-width: 100px;
+  height: 45px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2.5px solid #4070f4;
+  box-shadow: 0px 0px 20px -20px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.2s ease-in-out 0ms;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button:hover {
-  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  background-color:  #4070f4;
+  box-shadow: 0px 0px 20px -18px;
+}
+
+.button:active {
+  transform: scale(0.95);
 }
 
 /*================= About ===================*/
@@ -515,4 +526,29 @@ img {
   .home_img {
     right: 10%;
   }
+}
+
+/*===========SUBMIT BUTTON=============*/
+ button {
+  width: fit-content;
+  min-width: 100px;
+  height: 45px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2.5px solid #4070f4;
+  box-shadow: 0px 0px 20px -20px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.2s ease-in-out 0ms;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+ button:hover {
+  background-color:  #4070f4;
+  box-shadow: 0px 0px 20px -18px;
+}
+
+ button:active {
+  transform: scale(0.95);
 }
