@@ -56,5 +56,13 @@ sr.reveal('.work_img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact_input',{interval: 200}); 
 
+/*SUBMIT BUTTON*/
 
+  // Get a reference to the button element
+  var button = document.getElementById("myButton");
 
+  // Add a click event listener to the button
+  button.addEventListener("click", function() {
+      // Display an alert when the button is clicked
+      alert("Por enquanto é só um conceito, mas estou trabalhando nisso :)");
+    });
