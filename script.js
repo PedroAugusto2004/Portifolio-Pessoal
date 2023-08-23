@@ -56,8 +56,6 @@ sr.reveal('.work_img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact_input',{interval: 200}); 
 
-/*SUBMIT BUTTON*/
-
   // Get a reference to the button element
   var button = document.getElementById("myButton");
 
